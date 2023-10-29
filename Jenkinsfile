@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NEXUS_URL = 'http://192.168.12.148:8081'
+        NEXUS_URL = 'http://192.168.12.150:8081'
         NEXUS_REPO = 'repository/maven-releases'
         ARTIFACT_GROUP = 'tn.example'
         ARTIFACT_NAME = 'angular-final'
