@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  baseUrl: http://springboot-k8s-mysql.default.svc.cluster.local:8080
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: service-spring
+
