@@ -10,7 +10,7 @@ COPY  .  .
 #RUN npm i -g @angular/cli@16.0.0-next.4  --no-package-lock  
 RUN  npm install  -g @angular/cli@13.3.8     
 #RUN  npm install --save-dev @angular-devkit/build-angular
-RUN npm install  &&  npm run ng  build 
+##RUN npm install  &&  npm run ng  build 
 # nginx state for serving content
 FROM nginx:1.17.6
 # Set working directory to nginx asset directory
