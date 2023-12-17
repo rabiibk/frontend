@@ -10,6 +10,7 @@ pipeline {
         DOCKER_REPO = 'rabii1990/frontend'
         DOCKER_IMAGE_TAG = 'latest'
     }
+     
 
     stages {
         stage('Git') {
